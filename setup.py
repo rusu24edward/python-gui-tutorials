@@ -30,6 +30,7 @@ setuptools.setup(
         'matplotlib',
         'numpy',
         'opencv-python',
+        'pyqt5',
         'pysimplegui'
     ],
     python_requires='>=3.7, <3.11',

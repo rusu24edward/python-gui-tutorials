@@ -26,15 +26,9 @@ setuptools.setup(
         'Topic :: Education',
     ],
     packages=setuptools.find_packages(),
-    # install_requires=[
-    #     'importlib-metadata<5.0',
-    #     'tensorflow',
-    #     'gym<0.22',
-    #     'ray[rllib]==2.0.0',
-    #     'open-spiel',
-    #     'matplotlib',
-    #     'seaborn',
-    # ],
+    install_requires=[
+        'pysimplegui'
+    ],
     python_requires='>=3.7, <3.11',
     # entry_points={
     #     'console_scripts': [

@@ -27,6 +27,9 @@ setuptools.setup(
     ],
     packages=setuptools.find_packages(),
     install_requires=[
+        'matplotlib',
+        'numpy',
+        'opencv-python',
         'pysimplegui'
     ],
     python_requires='>=3.7, <3.11',
